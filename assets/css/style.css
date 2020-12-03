@@ -1,0 +1,165 @@
+body {
+  display: block;
+  margin: 8px;
+  max-width: 500px;
+}
+
+body:focus {
+  outline: none;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+font-size: 60px;
+font-weight: bold;
+text-align: center;
+color: orange;
+}
+.addTodo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-input{
+  width: 100%;
+  height: 30px;
+  background: #ffffff;
+  outline: none;
+  color: #000000;
+  font-size: 18px;
+  border: 2px solid orange;
+  margin-right: 30px;
+}
+
+.btn-add {
+  background: rgb(70 151 187);
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  width: 35px;
+  height: 35px;
+  outline: none;
+  color: #ffffff;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.edit-btn {
+  background: rgb(70 151 187);
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.edit-btn:hover{
+  opacity: 0.6;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+ul li {
+  height: 50px;
+}
+
+button.clear-btn {
+  background: red;
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button.clear-btn:hover{
+  opacity: 0.6;
+}
+
+.text-edit{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+.text-edit .add-input{
+  width: 70%;
+}
+.btn-group .btn-edit-cancel{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  transition: 0.5s;
+  color: #ffffff;
+  background: red;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text-edit label{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btn-group .btn-edit-cancel:hover{
+  border: 1px solid red;
+  background: #ffffff;
+  color: red;
+}
+.btn-group .btn-edit-save {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background: green;
+  transition: 0.5s;
+  margin-right: 10px;
+}
+.btn-group .btn-edit-save:hover{
+  border: 1px solid green;
+  background: #ffffff;
+  color: green;
+}
+.notificate-success{
+  color: #40bf40;
+  border: 1px solid #40bf40;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
